@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/systems/vendor/james-heinrich/phpthumb" />
+      <path value="$PROJECT_DIR$/systems/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/systems/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/systems/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/systems/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/systems/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/systems/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/systems/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/systems/vendor/phpoffice/phpword" />
+      <path value="$PROJECT_DIR$/systems/vendor/crysalead/inflector" />
+      <path value="$PROJECT_DIR$/systems/vendor/crossjoin/browscap" />
+      <path value="$PROJECT_DIR$/systems/vendor/mgargano/simplehtmldom" />
+      <path value="$PROJECT_DIR$/systems/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/systems/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/systems/vendor/woothee/woothee" />
+      <path value="$PROJECT_DIR$/systems/vendor/tinymce/tinymce" />
+      <path value="$PROJECT_DIR$/systems/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/systems/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/systems/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/systems/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/systems/vendor/mrferos/hl7-parser" />
+      <path value="$PROJECT_DIR$/systems/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/systems/vendor/mmucklo/inflect" />
+      <path value="$PROJECT_DIR$/systems/vendor/adldap2/adldap2" />
+      <path value="$PROJECT_DIR$/systems/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/systems/vendor/enygma/expose" />
+      <path value="$PROJECT_DIR$/systems/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/systems/vendor/dapphp/securimage" />
+      <path value="$PROJECT_DIR$/systems/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/systems/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/systems/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/systems/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/systems/vendor/composer" />
+      <path value="$PROJECT_DIR$/systems/vendor/pharmaintelligence/hl7" />
+      <path value="$PROJECT_DIR$/systems/vendor/paragonie/random_compat" />
+    </include_path>
+  </component>
+</project>

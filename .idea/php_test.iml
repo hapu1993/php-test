@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/adldap2/adldap2" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/crossjoin/browscap" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/crysalead/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/dapphp/securimage" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/dompdf/dompdf" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/enygma/expose" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/illuminate/contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/illuminate/support" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/intervention/image" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/james-heinrich/phpthumb" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/mgargano/simplehtmldom" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/mmucklo/inflect" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/mrferos/hl7-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/pharmaintelligence/hl7" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/phenx/php-font-lib" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/phpoffice/phpword" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/tecnickcom/tcpdf" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/tinymce/tinymce" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/systems/vendor/woothee/woothee" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

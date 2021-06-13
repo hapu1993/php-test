@@ -1,0 +1,32 @@
+/* main menu colours */
+div.admin_menu { background-color: #4478a8; }
+div.admin_menu li.shift span:hover, div.admin_menu li a:hover { background-color: #558BBE; color:#fff; }
+div.admin_menu li.selected a:hover { background-color: #41ADE0; }
+
+/* tabmenu colours */
+ul.main_menu li.selected a, ul.tabmenu { background-color:#41ade0; }
+ul.main_menu li.selected a, ul.tabmenu li a { color:#fff; }
+ul.tabmenu li a:hover { background:#6fc0e7; color:#fff; }
+
+/* jbox header */
+div.jbox_header, .ui-datepicker .ui-datepicker-header { background-color:#41ADE0; border-bottom-color:#41ADE0; }
+div.jbox_header div.title, .ui-datepicker .ui-datepicker-header a { color:#fff !important; }
+div.jbox_main div.jbox_tabs a.active span.txt, div.application-tabs div.no_tabs ul.nav li a, div.jquery_tabs ul.nav li.ui-state-active a { border-top: 2px solid #41ADE0; }
+
+/* buttons and action buttons */
+.blue, .ui-datepicker div.ui-datepicker-buttonpane button.ui-datepicker-close, body .ui-datepicker div.ui-datepicker-buttonpane button.ui-datepicker-close:active { background:#41ADE0; border-color:#41ADE0; }
+.blue:hover, .ui-datepicker div.ui-datepicker-buttonpane button.ui-datepicker-close:hover { background:#50BFF3; border-color:#50BFF3; }
+.blue:active { background:#39A2D3 !important; border-color:#39A2D3; }
+
+/* list tables  */
+table.summary th, table.summary th.sort, table.fixed_header td.sort, table.fixed_header td, table.summary tr.p_section td { background-color: #E5E7F1; }
+table.summary th.headerSortUp, table.summary th.headerSortDown, table.tablesorter thead th.headerSortDown, table.tablesorter thead th.headerSortUp, table.summary th div.hasFilter, table.summary th div.cfilter:hover { background-color: #DADDEC;  }
+.application-tabs .no_tabs .tab_title span { border-top-color:#41ADE0; }
+
+/* misc */
+.ui-autocomplete div.ui-menu-item a:hover { border-bottom: 1px solid #41ADE0; background: #41ADE0; }
+.ui-datepicker table.ui-datepicker-calendar td a:hover { background-color:#666; color:#fff; }
+.ui-datepicker .ui-datepicker-header a:hover { color:#fff; }
+
+table.summary th .hasFilter, .ui-datepicker table.ui-datepicker-calendar td a.ui-state-active, span.ico_binfo:hover { background: #41ADE0; }
+.head_wrap .user_info a:hover, .jbox_main .jbox_tabs a.jtab_control:hover span.ico { color: #41ADE0; }

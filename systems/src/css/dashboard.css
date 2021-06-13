@@ -1,0 +1,45 @@
+.dashboard { background: #fff; border: 1px solid #ddd; padding: 1px; margin-bottom: 10px; float: left; clear: both; box-sizing: border-box; width: 100%; }
+.dashboard .dashboard_header { box-sizing: border-box; display: block; float: left; width: 100%; padding: 10px; }
+.dashboard .dashboard_header .dash_title { padding-bottom: 0px !important; display: block; float: left; }
+.dashboard .dashboard_header .dash_options { float: right; }
+
+div.dbopts { margin: 0px; }
+div.dbopts .reset_dash { float: left; width: 100%; text-indent: 10px; color: #666; background: #f7f7f7; border: none; border-top: 1px solid #ccc; padding: 4px 0px; font-size: 12px; line-height: 20px; cursor: pointer; text-align: left; }
+div.dbopts .reset_dash:hover { color: #74afdd; text-decoration: underline; }
+div.dbopts span.wrap,
+div.dbopts span.wrap * { box-sizing: border-box; }
+div.dbopts span.wrap { left: auto; right: 0px; min-width: 300px; background: #666; margin-top: 5px; border-radius: 5px; padding: 5px; border: none; }
+div.dbopts span.wrap .fwrap { background: #fff; display: block; float: left; width: 100%; border-bottom: 1px solid #efefef; padding: 0px 5px; }
+div.dbopts span.wrap .fwrap:last-child { border: none; }
+div.dbopts span.wrap .fwrap input { margin: 7px 5px 0px 0px; float: left; cursor: pointer; }
+div.dbopts span.wrap .fwrap label { cursor: pointer; float: left; color: #666; font-size: 12px; padding: 6px 0px 6px 3px; max-width: 240px; line-height: 15px; }
+div.dbopts span.wrap .fwrap label:hover { text-decoration: underline; color: #74afdd; }
+
+.fix_title .main_title div.ddmenu-active form,
+.fix_title .main_title div.ddmenu-hover form { display: block; }
+
+.dashboard .gridster { background: #e7e7e7; width: 100%; height: 100%; display: block; float: left; }
+.dashboard .gridster > ul { width: 100%; }
+.dashboard .gridster .widget { display: block; float: left; }
+.dashboard .gridster .widget * { box-sizing: border-box; }
+.dashboard .gridster .widget .widget_inner .content * { box-sizing: content-box; }
+.dashboard .gridster .widget .widget_content { width: 100%; height: 100%; display: block; float: left;}
+.dashboard .gridster .widget .title_bar { position: relative; display: block; float: left; clear: both; width: 100%; padding: 5px 10px; background: #41ade0; color: #fff; overflow: auto; z-index: 10; font-size:14px;font-weight: bold; line-height: 20px; border: 1px solid #bfd8ee; }
+.dashboard .gridster .widget .content_box { position: relative; display: block; float: left; clear: both; width: 100%; height: 100%; margin-top: -30px; padding-top: 30px; background: #fff; z-index: 1; }
+.dashboard .gridster .widget .content_box .widget_inner { display: block; float: left; width: 100%; height: 100%; overflow: auto; border: 1px solid #bfd8ee; border-top: none; }
+.dashboard .gridster .widget .content_box .content { padding: 10px; width: auto; height: auto; }
+.dashboard .gridster .widget .content_box .content>p:first-child { padding-top: 0px; }
+.dashboard .gridster .widget .content_box .content>p:last-child { padding-bottom: 0px; }
+
+.dashboard .gridster .minimized .gs-resize-handle-both { display: none; }
+.dashboard .gridster .fa-caret-down,
+.dashboard .gridster .minimized .fa-caret-up { display: none; }
+.dashboard .gridster .minimized .fa-caret-down { display: inline; }
+.dashboard .gridster .minimize_widget { margin-right: 5px; cursor: pointer;font-size:14px; padding-right:15px; }
+.dashboard .gridster .minimize_widget:hover { color: #4478a8; }
+
+.dashboard .gridster .widget .title_bar .remove_widget { display: block; float: right; cursor: pointer; }
+.dashboard .gridster .widget .title_bar .remove_widget:hover { color: #4478a8; }
+
+.dashboard .gridster .widget .title_bar .info_widget { display: block; float: right; cursor: pointer; margin-right: 5px; font-size: 14px; padding-right: 15px;}
+.dashboard .gridster .widget .title_bar .info_widget:hover { color: #4478a8; }

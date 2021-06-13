@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>{#readMore.title}</title>
+	<script type="text/javascript" src="../../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="js/readMore.js"></script>
+	<base target="_self" />
+</head>
+<body>
+
+<form onsubmit="readMoreDialog.insert(); return false;" action="#">
+
+	<p>Expand link title</p>
+	<input id="readmore_title" name="readmore_title" style="width:516px; padding:5px;"/>
+	
+	<p>Collapse link title</p>
+	<input id="readless_title" name="readless_title" style="width:516px; padding:5px;"/>
+
+	<p>Content to be shown</p>
+	<textarea id="readmore_text" name="readmore_text" rows="15" cols="100"></textarea>
+
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="submit" id="insert" name="insert" value="{#insert}" />
+		</div>
+
+		<div style="float: right">
+			<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+		</div>
+	</div>
+</form>
+</body>
+</html>

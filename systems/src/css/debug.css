@@ -1,0 +1,23 @@
+#dbg_toolbar_trigger { background: #F4F4F4; border: 1px solid #BEBEBE; border-left: none; display: block; height: 25px; left: 0; position: fixed; bottom: 32px; width: 25px; z-index: 890;     border-top-right-radius: 3px; border-bottom-right-radius: 3px;   box-shadow: 1px 1px 3px rgba(0,0,0,0.10); cursor:pointer; text-align: center;line-height: 25px;color: #666; }
+#dbg_toolbar_trigger:hover { color: #41ADE0; }
+#dbg_toolbar { display: none; left: 8px; position: fixed; top: 100%; margin-top:-404px; z-index: 1200; background: #F4F4F4; border: 1px solid #ddd; width: 200px;   box-shadow: 1px 1px 3px rgba(0,0,0,0.10); }
+.dbg_horizontal { width:auto !important; }
+.dbg_horizontal a { width:81px !important; }
+#dbg_toolbar a { float:left; background: none; color: #555; display: block; text-decoration: none; width: 179px; padding: 8px 10px; border-top: 1px solid #FEFEFE; }
+#dbg_toolbar a:hover { background: #E0E0E0; color: black; }
+#dbg_toolbar a.active { color:#fff; background: #999; text-decoration:none; opacity:1; }
+#dbg_toolbar .dbg_head { background: #DCEC8D; float:left; width:100%; cursor:move; }
+#dbg_toolbar .dbg_head span.dbg_type { float:left; width:15px; height:15px; cursor:pointer; font-size: 8px; text-align: center; line-height: 14px; color: #666;}
+#dbg_toolbar .dbg_head span.dbg_type .fa-chevron-up { display: none; }
+#dbg_toolbar .dbg_head span.dbg_type .fa-chevron-down { display: inline-block; }
+.dbg_horizontal span.dbg_type .fa-chevron-up { display:inline-block !important; }
+.dbg_horizontal span.dbg_type .fa-chevron-down { display: none !important; }
+.dbg_horizontal { padding-bottom:1px; padding-left: 1px;}
+#dbg_toolbar .dbg_head span.dbg_close {  float:right; width:15px; height:15px; cursor:pointer; font-size: 9px;text-align: center;line-height: 15px;color: #666;}
+div.dbg_info { display:none; }
+#jbox_main div.dbg_info { display:block !important; }
+#jbox_main div.dbg_info table.action_form { max-width:none; }
+#jbox_main div.dbg_info table.action_form tr:hover td { background:#fff; }
+#jbox_main div.dbg_info table.code_table { font-family: monospace; width: 100%; font-size: 13px; border: 1px solid #ddd; margin:0 0 10px 0; }
+#jbox_main div.dbg_info table.code_table td { border: 1px solid #ddd; padding:5px; }
+#jbox_main div.dbg_info table.code_table tr:hover td { background:#fffe9b; }

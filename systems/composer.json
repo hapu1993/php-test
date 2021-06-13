@@ -1,0 +1,42 @@
+{
+    "name": "riskpoint/core",
+    "description": "Riskpoint Core",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alasdair Campbell",
+            "email": "alasdair.campbell@riskpoint.co.uk"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/classes/",
+            "src/app_application/classes/",
+            "src/app_config/classes/"            
+        ],
+        "files": [
+        ]
+    },
+    "require": {
+        "swiftmailer/swiftmailer": "^5.4",
+        "dompdf/dompdf": "^0.6.1",
+        "dapphp/securimage": "^3.6",
+        "crossjoin/browscap": "^1.0",
+        "james-heinrich/phpthumb": "^1.7",
+        "woothee/woothee": "^1.2",
+        "intervention/image": "^2.3",
+        "monolog/monolog": "^1.17",
+        "ezyang/htmlpurifier": "^4.7",
+        "enygma/expose": "^2.4",
+        "tinymce/tinymce": "^4.3",
+        "phpoffice/phpword": "^0.12.1",
+        "tecnickcom/tcpdf": "^6.2",
+        "mgargano/simplehtmldom": "^1.5",
+        "mmucklo/inflect": "^0.3.0",
+        "crysalead/inflector": "^1.0",
+        "pharmaintelligence/hl7": "^0.1.0",
+        "mrferos/hl7-parser": "^1.0",
+        "adldap2/adldap2": "^8.1",
+        "lcobucci/jwt": "^3.2"
+    }
+}

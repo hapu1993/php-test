@@ -1,0 +1,23 @@
+input[type="text"], input[type="password"], input[type="reset"], input[type="button"], input[type="submit"], textarea, select { -webkit-appearance: none; border-radius: 0; border-radius: 0; }
+input[type="radio"], input[type="checkbox"] { border:1px solid #ccc !important; width:17px !important; height:17px !important; }
+* { -webkit-tap-highlight-color: transparent; }
+ul.main_menu li:hover ul, ul.main_menu li.hover ul { left: -999em; }
+div.content_section div.page_search div.hide_handle { height:20px; }
+div.content_section div.page_search div.hide_handle span.grippy { margin:5px auto; }
+div.jbox_overlay { background:rgba(0,0,0,0.3) url(../images/bg_overlay.png) repeat scroll 0 0; }
+div.jbox_box div.restore { display:none; }
+div.jbox_app_switch span.iclose { display:block; }
+body.jboxed div.jbox_content_inner { overflow:auto !important; }
+body.jboxed div.form_content { display:block; margin:0px !important; width:97%; }
+table.action_form tr td { padding: 4px; }
+table.action_form input { padding: 8px; }
+table.action_form select { padding: 8px; }
+table.action_form span.add { padding:10px; }
+div.table_options a.change_view { margin:2px 15px 0 0; }
+table.summary tr.add_more td.plus span { margin: 5px 0 0 0; }
+table.summary td { line-height:25px; }
+table.summary th div.cfilter .filter_option li a { line-height:20px; }
+div.multi_toggle { background:none; }
+div.inline_edit { background:none; }
+table.action_form button.ui-datepicker-trigger { margin:8px 0 0 15px; }
+.ui-datepicker .ui-datepicker-header .ui-datepicker-title select { -webkit-appearance: menulist-button; }

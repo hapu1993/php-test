@@ -1,0 +1,41 @@
+Options +FollowSymLinks
+Options -MultiViews
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+
+    RewriteEngine on
+
+    RewriteBase /
+
+    ErrorDocument 404 /404.php
+    RewriteRule ^(.+/)favicon.ico$ images/favicon.png [L]
+
+    RewriteCond %{REQUEST_FILENAME} !-l
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteRule ^([-a-zA-Z0-9_]+)/([-a-zA-Z0-9_]+)/(.+)$ /backend/$1/$2.php?x=$3
+    RewriteRule ^([-a-zA-Z0-9_]+)/([-a-zA-Z0-9_]+)/$ /backend/$1/$2.php
+    RewriteRule ^([-a-zA-Z0-9_]+)/([-a-zA-Z0-9_!]+)$ /backend/$1.php?x=$2
+    RewriteRule ^([-a-zA-Z0-9_]+)/$ /backend/$1.php
+
+</IfModule>
+
+<IfModule mod_expires.c>
+   ExpiresActive On
+
+   <FilesMatch "\.(gif|jpg|jpeg|png|ico|pdf|flv|swf|woff|ttf)$">
+      ExpiresDefault "access plus 50 days"
+   </FilesMatch>
+   <FilesMatch "\.(js|css)$">
+      ExpiresDefault "access plus 30 days"
+   </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+        AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript
+        <FilesMatch "\.(js|css)$">
+                SetOutputFilter DEFLATE
+        </FilesMatch>
+</IfModule>
