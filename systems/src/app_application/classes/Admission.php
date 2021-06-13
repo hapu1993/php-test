@@ -446,9 +446,6 @@
                     $error = true;
                 }
             } else {
-
-
-
                 $_SESSION["feedback"] .= g_feedback("error", "Discharge Date is required");
                 $error = true;
             }
