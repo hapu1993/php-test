@@ -445,9 +445,6 @@
                     $_SESSION["feedback"] .= g_feedback("error", "Discharge date should be greater than admitted date.");
                     $error = true;
                 }
-
-
-
             } else {
 
 
